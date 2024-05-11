@@ -1,4 +1,9 @@
-import { Given, When, Then, Before } from "cypress-cucumber-preprocessor/steps";
+import {
+  Given,
+  When,
+  Then,
+  Before,
+} from "@badeball/cypress-cucumber-preprocessor";
 
 import { fakerPT_BR } from "@faker-js/faker";
 import PesquisaPage from "../pages/pesquisa.page";
