@@ -18,6 +18,10 @@ export default class ListarPage {
     cy.get(this.buttonVoltarPagina).click();
   }
 
+  VerDetalhes() {
+    cy.get(this.buttonVerDetalhesUsuario).click();
+  }
+
   getComponenteTodosUsuarios() {
     return cy.get(this.componenteTodosUsuarios);
   }

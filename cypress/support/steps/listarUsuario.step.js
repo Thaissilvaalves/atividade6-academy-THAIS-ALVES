@@ -1,6 +1,5 @@
 import { Given, When, Then } from "@badeball/cypress-cucumber-preprocessor";
 
-import { fakerPT_BR } from "@faker-js/faker";
 import ListarPage from "../pages/listar.page";
 
 var listarPage = new ListarPage();
