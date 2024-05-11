@@ -26,7 +26,7 @@ Contexto: Usuário deve ter acessado a página de cadastro
   E informar um e-mail com mais de 60 caracteres "thaiswertyuiopqwiuryqwertyuiopqwiuryqwertyuiopqasdasddfg@t.co"
   Então não deve ser possível extrapolar o limite de 60 caracteres do e-mail no cadastro
 
-  Cenario: Não deve ser possível cadastar um nome com mais de 100 caracteres
+  Cenário: Não deve ser possível cadastar um nome com mais de 100 caracteres
   Quando informar um nome com mais de 100 caracteres "thaissilvaalvesmarquesthaissilvaalvesmarquesthaissilvaalvesmarquesthaissilvaalvesmarquesthaissilvaalv"
   E informar um novo e-mail
   E confirmar a operação
